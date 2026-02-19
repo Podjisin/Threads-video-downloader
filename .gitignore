@@ -1,0 +1,53 @@
+# =====================
+# Python
+# =====================
+__pycache__/
+./__pycache__/
+*.py[cod]
+*$py.class
+*.spec
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# =====================
+# Build / Packaging
+# =====================
+build/
+dist/
+*.spec
+
+# PyInstaller cache
+*.manifest
+*.log
+
+# =====================
+# Playwright
+# =====================
+ms-playwright/
+.playwright/
+
+
+# =====================
+# OS junk
+# =====================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =====================
+# Editors
+# =====================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =====================
+# Logs / temp
+# =====================
+*.log
+*.tmp

@@ -39,7 +39,6 @@ jobs:
         run: |
           python -m playwright install chromium
 
-      # Put your icon path here (example: assets/icon.ico)
       - name: Build EXE (bundles ms-playwright)
         shell: pwsh
         run: |
@@ -53,7 +52,7 @@ jobs:
             --windowed `
             --name "ThreadsDownloader" `
             --add-data "$pwBrowsers;ms-playwright" `
-            --icon "icon.ico" `
+            --icon "assets/icon.ico" `
             main.py
 
       - name: Upload artifact
